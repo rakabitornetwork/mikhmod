@@ -23,7 +23,11 @@ session_start();
 <style>
   .login-box {
     padding-top: 8% !important;
-    width: 360px;
+    width: min(360px, calc(100% - 48px));
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
   }
   .login-box .card {
     position: relative;
@@ -75,7 +79,10 @@ session_start();
   }
   @media (max-width: 576px) {
     .login-box {
-      width: 95%;
+      width: min(360px, calc(100% - 48px));
+      max-width: 360px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 </style>
