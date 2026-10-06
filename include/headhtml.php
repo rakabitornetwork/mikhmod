@@ -22,7 +22,7 @@ error_reporting(0);
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>MIKHMON V7 <?= $hotspotname; ?></title>
+		<title>MIKHMON MOD V6 dan V7 by TESLATECH</title>
 		<meta charset="utf-8">
 		<meta http-equiv="cache-control" content="private" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
