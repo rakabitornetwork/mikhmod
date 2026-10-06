@@ -102,8 +102,8 @@ if (isset($_POST['resetpass'])) {
   }
   @media (max-width: 576px) {
     .login-box {
-      width: min(260px, calc(100% - 72px));
-      max-width: 260px;
+      width: min(300px, calc(100% - 56px));
+      max-width: 300px;
       margin-left: auto;
       margin-right: auto;
     }
