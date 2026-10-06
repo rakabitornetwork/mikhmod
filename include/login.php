@@ -79,8 +79,8 @@ session_start();
   }
   @media (max-width: 576px) {
     .login-box {
-      width: min(360px, calc(100% - 48px));
-      max-width: 360px;
+      width: min(260px, calc(100% - 72px));
+      max-width: 260px;
       margin-left: auto;
       margin-right: auto;
     }
